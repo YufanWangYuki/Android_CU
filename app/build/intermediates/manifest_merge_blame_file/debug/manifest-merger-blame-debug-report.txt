@@ -1,0 +1,71 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="android.example.com.tflitecamerademo3"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:5:5-65
+11-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:6:5-81
+12-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:7:5-66
+13-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:8:5-79
+14-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:8:22-77
+15
+16    <uses-feature android:name="android.hardware.camera" />
+16-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:11:5-60
+16-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:11:19-57
+17    <uses-feature android:name="android.hardware.camera.autofocus" />
+17-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:12:5-70
+17-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:12:19-67
+18
+19    <application
+19-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:15:5-34:19
+20        android:allowBackup="true"
+20-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:16:9-35
+21        android:debuggable="true"
+22        android:icon="@drawable/my_logo_2"
+22-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:17:9-43
+23        android:label="@string/app_name"
+23-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:18:9-41
+24        android:testOnly="true"
+25        android:theme="@style/MaterialTheme" >
+25-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:19:9-45
+26
+27        <!-- <meta-data -->
+28        <!-- android:name="com.google.android.actions" -->
+29        <!-- android:resource="@xml/shape" /> -->
+30
+31        <activity
+31-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:24:9-33:20
+32            android:name="com.example.android.tflitecamerademo4.CameraActivity"
+32-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:25:13-43
+33            android:label="@string/app_name"
+33-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:26:13-45
+34            android:screenOrientation="portrait" >
+34-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:27:13-49
+35            <intent-filter>
+35-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:28:13-32:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:29:17-69
+36-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:29:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:31:17-77
+38-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:31:27-74
+39            </intent-filter>
+40        </activity>
+41    </application>
+42
+43</manifest>
