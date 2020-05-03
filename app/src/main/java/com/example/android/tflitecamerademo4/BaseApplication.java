@@ -3,7 +3,7 @@ package com.example.android.tflitecamerademo4;
 import android.app.Application;
 import android.content.Context;
 /**
- * Created by lky on 2018/12/11
+ * Created by wyf
  */
 public class BaseApplication extends Application {
 

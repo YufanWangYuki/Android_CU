@@ -21,7 +21,6 @@
         android:debuggable="true"
         android:icon="@drawable/my_logo_2"
         android:label="@string/app_name"
-        android:testOnly="true"
         android:theme="@style/MaterialTheme" >
 
         <!-- <meta-data -->

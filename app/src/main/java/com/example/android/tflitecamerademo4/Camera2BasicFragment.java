@@ -1,18 +1,3 @@
-/* Copyright 2017 The TensorFlow Authors. All Rights Reserved.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-==============================================================================*/
-
 package com.example.android.tflitecamerademo4;
 
 
@@ -718,13 +703,6 @@ public class Camera2BasicFragment extends Fragment
           }
       });
 
-//      // 镜头转换
-//      btn9.setOnClickListener(new View.OnClickListener(){
-//          @Override
-//          public void onClick(View v) {
-//          }
-//      });
-
     // Discard
     gpuImageView.setOnLongClickListener(new View.OnLongClickListener() {
       @Override
@@ -945,12 +923,14 @@ public class Camera2BasicFragment extends Fragment
         return "";
     }
 
-   // Transform a series of bitmaps (images) to video
+  /**
+   * Transform a series of bitmaps (images) to video
+   */
   private void performJcodec() {
     // The name of the video
     final String newFileName = System.currentTimeMillis() + ".mp4";
     String local_file = Environment.getExternalStorageDirectory().getAbsolutePath()+"/down/";
-    final double frameRate = frame_count / (mapList.size());//1表示1秒1个照片，
+    final double frameRate = frame_count / (mapList.size());//frame rate
     File f = new File(local_file);
     if(!f.exists()){
       f.mkdirs();
@@ -1025,7 +1005,7 @@ public class Camera2BasicFragment extends Fragment
       for (String cameraId : manager.getCameraIdList()) {
         CameraCharacteristics characteristics = manager.getCameraCharacteristics(cameraId);
 
-        // We don't use a front facing camera in this sample.!!!这里可以改相机镜头转向
+        // We don't use a front facing camera in this sample.
         Integer facing = characteristics.get(CameraCharacteristics.LENS_FACING);
         if (facing != null && facing == CameraCharacteristics.LENS_FACING_BACK) {
           continue;

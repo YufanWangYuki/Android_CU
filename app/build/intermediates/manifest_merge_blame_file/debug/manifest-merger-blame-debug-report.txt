@@ -39,33 +39,32 @@
 22-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:17:9-43
 23        android:label="@string/app_name"
 23-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:18:9-41
-24        android:testOnly="true"
-25        android:theme="@style/MaterialTheme" >
-25-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:19:9-45
-26
-27        <!-- <meta-data -->
-28        <!-- android:name="com.google.android.actions" -->
-29        <!-- android:resource="@xml/shape" /> -->
-30
-31        <activity
-31-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:24:9-33:20
-32            android:name="com.example.android.tflitecamerademo4.CameraActivity"
-32-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:25:13-43
-33            android:label="@string/app_name"
-33-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:26:13-45
-34            android:screenOrientation="portrait" >
-34-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:27:13-49
-35            <intent-filter>
-35-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:28:13-32:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:29:17-69
-36-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:29:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:31:17-77
-38-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:31:27-74
-39            </intent-filter>
-40        </activity>
-41    </application>
-42
-43</manifest>
+24        android:theme="@style/MaterialTheme" >
+24-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:19:9-45
+25
+26        <!-- <meta-data -->
+27        <!-- android:name="com.google.android.actions" -->
+28        <!-- android:resource="@xml/shape" /> -->
+29
+30        <activity
+30-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:24:9-33:20
+31            android:name="com.example.android.tflitecamerademo4.CameraActivity"
+31-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:25:13-43
+32            android:label="@string/app_name"
+32-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:26:13-45
+33            android:screenOrientation="portrait" >
+33-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:27:13-49
+34            <intent-filter>
+34-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:28:13-32:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:29:17-69
+35-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:29:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:31:17-77
+37-->H:\FinalProject\updates\0223\CU\app\src\main\AndroidManifest.xml:31:27-74
+38            </intent-filter>
+39        </activity>
+40    </application>
+41
+42</manifest>
