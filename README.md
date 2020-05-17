@@ -5,6 +5,7 @@ This is the Android application for my graduation project. It is an Android vide
 ## Main View
 The two buttons on the right can be used to select the effect to be used. Below are the buttons for taking pictures and recording and the background material list bar, so that the user can browse through the materials. 
 
+
 ## Background Replacement
 There are two kinds of materials in total, pre-loaded materials and materials need to be downloaded from the cloud. The first 3 of them are preloaded, which means that users can use them directly. When clicking on different materials, the corresponding background image will be loaded. You can see the replacement result is pretty good and basically no obvious stuttering.
 
