@@ -5,7 +5,7 @@ This is the Android application for my graduation project. It is an Android vide
 ## Main View
 The two buttons on the right can be used to select the effect to be used. Below are the buttons for taking pictures and recording and the background material list bar, so that the user can browse through the materials. 
 
-<img src="https://github.com/YufanWangYuki/Android_CU/blob/master/images/4.jpg?raw=true" width = "316" height = "468" alt="CU Application" 
+<img src="https://github.com/YufanWangYuki/Android_CU/blob/master/images/4.jpg?raw=true" width = "216" height = "468" alt="CU Application" 
 align=center>
 
 
