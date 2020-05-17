@@ -28,3 +28,8 @@ Filters can be switched when the user clicks on the main interface. Currently, f
 ## Style Tranfer
 The style transfer function can harmonize the whole image based on the background material.
 
+# Demo video
+Please visit: https://youtu.be/dacgQFWs99c
+
+Thank you! : )
+
