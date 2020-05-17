@@ -7,6 +7,9 @@ The two buttons on the right can be used to select the effect to be used. Below 
 
 ![](https://github.com/YufanWangYuki/Android_CU/blob/master/images/4.jpg?raw=true)
 
+<img src="https://github.com/YufanWangYuki/Android_CU/blob/master/images/4.jpg?raw=true" width = "200" height = "300" alt="CU Application" 
+align=center>
+
 
 ## Background Replacement
 There are two kinds of materials in total, pre-loaded materials and materials need to be downloaded from the cloud. The first 3 of them are preloaded, which means that users can use them directly. When clicking on different materials, the corresponding background image will be loaded. You can see the replacement result is pretty good and basically no obvious stuttering.
